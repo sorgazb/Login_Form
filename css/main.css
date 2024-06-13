@@ -21,6 +21,7 @@ body{
 }
 
 .contenedor::before{
+    display: block;
     content: " ";
     position: absolute;
     top: 138px;
