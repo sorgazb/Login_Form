@@ -20,6 +20,35 @@ body{
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.322);
 }
 
+.contenedor::before{
+    content: " ";
+    position: absolute;
+    top: 138px;
+    left: 475px;
+    z-index: -1;
+    width: 590px;
+    height: 430px;
+    background: linear-gradient(45deg,#243453,#F52F41,#243453,#F52F41,#243453,#F52F41,#243453,#F52F41);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 90000ms linear infinite;
+}
+
+@keyframes glowing {
+    0%{
+        background-position: 0 0;
+    }
+
+    50%{
+        background-position: 400% 0;
+    }
+
+    100%{
+        background-position: 0 0;
+    }
+}
+
 .contenedor h2{
     margin: 0px 0px 30px;
     padding: 0px;
