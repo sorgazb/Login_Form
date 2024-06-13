@@ -17,7 +17,7 @@ body{
     padding: 30px;
     background: #243453;
     border-radius: 10px;
-    
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.322);
 }
 
 .contenedor h2{
@@ -31,11 +31,12 @@ body{
     font-weight: 800;
     font-size: 70px;
     font-style: normal;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.295);
 }
 
 .elemento label{
     color: #F52F41;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Tiny5", sans-serif;
     text-transform: uppercase;
 }
 
@@ -47,10 +48,19 @@ body{
     border: none;
     border-bottom: 1px solid #F52F41;
     margin-bottom: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
+    transition: all 300ms;
 }
 
-.elemento input[type="submit"]{
+.elemento input:focus{
+    outline: none;
+    transition: all 300ms;
+    background-color: #e7133d11;
+    box-shadow: 0 4px 4px rgba(255, 0, 0, 0.089);
+}
+
+.form-input-submit{
+    width: 100%;
     background-color: #e7133f;
     color:#cccccc ;
     border: none;
@@ -62,11 +72,54 @@ body{
     font-family: "Tiny5", sans-serif;
     font-weight: 800;
     font-style: normal;
+    transition: all 300ms;
+    position: relative;
+    z-index: 0;
+    overflow: visible; 
+    height: 50px;
 }
 
-.elemento input[type="submit"]:hover{
+.button-container{
+    overflow: hidden;
+    height: 50px;
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button-container::after{
+    content: "";
+    color: #14b953;
+    background-color: #ff000070;
+    width: 1000px;
+    height: 400px;
+    position: absolute; 
+    top: 0;
+    left: -250px;
+    z-index: -1;
+    display: block;
+    animation: boton 1500ms infinite alternate;
+}
+
+.form-input-submit:hover{
     letter-spacing: 10px;
     background-color: #cccccc;
     color:#243453 ;
+    transition: all 300ms;
+    height: 40px;
+    width: 98%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes boton {
+    0%{
+        filter: opacity(1);
+    }
+    100%{
+        filter: opacity(0.25);
+    }
 }
 
