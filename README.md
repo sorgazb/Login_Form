@@ -5,7 +5,7 @@
   <h3>Tecnologías Usadas:</h3>
 </div>
  <div align="center">
-  <a href="https://skillicons.dev">
+  <a href="#">
     <img src="https://skillicons.dev/icons?i=html,css" />
   </a>
 </div>
