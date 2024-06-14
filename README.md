@@ -12,6 +12,8 @@
 <hr>
 <a href="https://sorgazb.github.io/Login_Form/">Prueba el formulario Aquí!</a>
 <hr>
+<div align="center">
+<img src="https://github.com/sorgazb/Login_Form/assets/150727714/7d95d0ff-7903-4ddd-a4f7-a12050b788a4"/>
+</div>
 
-https://github.com/sorgazb/Login_Form/assets/150727714/569beebf-2865-4358-a360-1e97825a1e9e
 
