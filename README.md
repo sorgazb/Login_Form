@@ -1,5 +1,5 @@
-﻿# Formulario Login
- <p>-Ejemplo de formulario de inicio de sesión para una página web</p>
+﻿# Formulario Login:
+ <p>-Ejemplo de formulario de inicio de sesión para una página web.</p>
 <hr>
 <div align="center">
   <h3>Tecnologías Usadas:</h3>
@@ -10,8 +10,8 @@
   </a>
 </div>
 <hr>
-<a href="https://sorgazb.github.io/Login_Form/">Enlace Formulario</a>
+<a href="https://sorgazb.github.io/Login_Form/">Prueba el formulario Aquí!</a>
 <hr>
-<div align="center">
-  <img src="https://github.com/sorgazb/Login_Form/assets/150727714/ed53baa6-6497-43d5-9a34-2196015b72b2"/>
-</div>
+
+https://github.com/sorgazb/Login_Form/assets/150727714/569beebf-2865-4358-a360-1e97825a1e9e
+
