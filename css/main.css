@@ -6,11 +6,11 @@ html{
 
 body{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .contenedor{
+    position: relative;
     margin: auto;
     margin-top: 150px;
     width: 500px;
@@ -21,11 +21,10 @@ body{
 }
 
 .contenedor::before{
-    display: block;
     content: " ";
     position: absolute;
-    top: 138px;
-    left: 475px;
+    top: -10px;
+    left: -15px;
     z-index: -1;
     width: 590px;
     height: 430px;
