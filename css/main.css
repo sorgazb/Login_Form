@@ -9,6 +9,14 @@ body{
     padding: 0;   
 }
 
+.principal{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .contenedor{
     position: relative;
     margin: auto;
