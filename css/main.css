@@ -26,7 +26,7 @@ body{
     padding: 30px;
     background: #243453;
     border-radius: 10px;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.322);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
 }
 
 .contenedor::before{
